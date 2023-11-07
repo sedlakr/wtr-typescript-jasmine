@@ -2,7 +2,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "test": "web-test-runner \"test/**/*.(test|spec).[t|j]s\" --node-resolve --config=./test-runner.config.js"
+    "test": "web-test-runner --config=./test-runner.config.js"
   },
   "type": "module",
   "devDependencies": {
